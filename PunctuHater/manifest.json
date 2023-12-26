@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Medium PunctuHater",
+  "version": "1.0",
+  "description": "Replaces 'smart', virgin Medium code block punctuation with useable, Chad ascii punctuation",
+  "content_scripts": [
+    {
+      "matches": ["https://*.medium/com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
