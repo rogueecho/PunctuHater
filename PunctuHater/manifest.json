@@ -5,7 +5,7 @@
   "description": "Replaces 'smart', virgin Medium code block punctuation with useable, Chad ascii punctuation",
   "content_scripts": [
     {
-      "matches": ["https://*.medium/com/*"],
+      "matches": ["https://*.medium.com/*"],
       "js": ["contentScript.js"]
     }
   ]
